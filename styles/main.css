@@ -65,3 +65,15 @@ body, figure { margin: 0; }
 legend, button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 
 * { box-sizing: border-box; }
+
+html { font-size: 62.5%; }
+
+body { background: #0d0a0b; font-family: "Open Sans", sans-serif; }
+
+h1 { color: #30c5ff; font-weight: 100; margin: 0; padding: 1.5rem 0; text-align: center; font-size: 9rem; }
+
+h2 { color: #f3eff5; text-align: center; margin: 0; font-size: 3.6rem; padding: 0.5rem 0; font-weight: 400; }
+
+p { color: #f3eff5; }
+
+footer p { text-align: center; font-size: 1.4rem; }

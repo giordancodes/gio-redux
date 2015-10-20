@@ -1,1 +1,47 @@
 @import 'setup';
+
+$color1: #0d0a0b; //rgba(13, 10, 11, 100)
+$color2: #30c5ff; //rgba(48, 197, 255, 100)
+$color3: #43b929; //rgba(67, 185, 41, 100)
+$color4: #f3eff5; //rgba(243, 239, 245, 100)
+$color5: #cdcdcd; //rgba(205, 205, 205, 100)
+$openSans: 'Open Sans', sans-serif;
+$droidSans: 'Droid Sans', sans-serif;
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background: $color1;
+	font-family: $openSans;
+}
+
+h1{
+	color: $color2;
+	font-weight: 100;
+	margin: 0;
+	padding: 1.5rem 0;
+	text-align: center;
+	font-size: 9rem;
+}
+
+h2{
+	color: $color4;
+	text-align: center;
+	margin: 0;
+	font-size: 3.6rem;
+	padding: 0.5rem 0;
+	font-weight: 400;
+}
+
+p{
+	color: $color4;
+}
+
+footer{
+	p{
+		text-align: center;
+		font-size: 1.4rem;
+	}
+}
